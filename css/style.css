@@ -116,18 +116,22 @@ p {
         font-size: 20px;
     }
     .scrTotalPrice1{
-        position: relative;
+       
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 90%;
+        max-width: 60%;
+    }
+
+    .totalPriceWrap{
+        position: relative;
     }
     .iTp{
         position: absolute;
-        top: 2px;
-        left: 15px; 
-        display: inline-block;
-        margin-right: 100px;
-        align-items: center;
-        padding-top: 3px;
+    top: 3px;
+    left: 79px;
+    display: inline-block;
+    margin-right: 100px;
+    align-items: center;
+    padding-top: 3px;
     }
