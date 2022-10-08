@@ -7,21 +7,60 @@ p {
 
 @media screen and (min-width: 200px) and (max-width: 700px) {
 
+    body{
+        background-color: #4f518c;
+    }
+    .title{
+        font-size: 22PX;
+        color: #2c2a4a;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .input-wrap{
+        position: relative;
+        display: inline-block;
+        margin-right: 55px;
+    }
+    .modal-input {
+        width: 120px;
+        height: 28px;
+        border: 2px solid #2c2a4a;
+        border-radius: 13px;
+        background-color: transparent;
+        padding: 0px 8px 0px 31px;
+        font-size: 25px;
+        text-align: center;
+        color: #fff;
+    
+    }
+    .icon-name {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        fill: #dabfff;
+    }
     .comp {
         display: flex;
-        text-align: center;
+        flex-direction: column;
+        text-align: start;
         justify-content: center;
-        padding: 10px;
-
-        border: 3px solid red;
+        padding: 3px;
+        border: 3px solid #9d94d7;
+        border-radius: 19px;
         margin-bottom: 5px;
     }
 
     .scr {
         display: inline-block;
-        width: 50px;
-        font-size: 25px;
-        padding: 10px;
+        min-width: 76px;
+        font-size: 21px;
+        padding: 3px;
+        border-radius: 10px;
+        background-color: #907ad6;
+        text-align: center;
+       
+        color: #fff;
     }
 
     .inp {
@@ -42,25 +81,47 @@ p {
     .a1 {
         fill: aqua;
     }
-
-    .compaund {}
-
-    .compaund-mc {
-        display: inline-block;
+    
+    .btnWrap{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-
-    .btn-mc {}
-
-    .input-mc {}
-
-    .screen-mc {}
-
-    .compaund-price {}
-
-    .btn-price {}
-
-    .input-price {}
-
-    .screen-price {}
-
-    .scr-totalPrice {}
+    .btnCalc1{
+        display: block;
+        background-color: #907ad6;
+        width: 270px;
+        height: 33px;
+        align-items: center;
+        color: #2c2a4a;
+        font-size: 23px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ol{
+        list-style-type: none;
+        list-style-image: url(/img/cart.svg);
+        fill: aqua;
+        
+    }
+    .totalPriceWrap{
+        
+        margin-left: auto;
+        margin-right: auto;
+    }  
+    .totalPrice{
+       text-align: center;
+        color: #2c2a4a;
+        font-size: 20px;
+    }
+    .scrTotalPrice1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+    }
+    .iTp{
+        display: inline-block;
+        align-items: center;
+        padding-top: 3px;
+    }
