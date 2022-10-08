@@ -1,0 +1,66 @@
+/* * {
+margin: 0;
+} */
+p {
+    margin: 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+
+    .comp {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+
+        border: 3px solid red;
+        margin-bottom: 5px;
+    }
+
+    .scr {
+        display: inline-block;
+        width: 50px;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .inp {
+        width: 100px;
+        font-size: 25px;
+
+
+
+    }
+
+    .img {
+        display: flex;
+        width: 15px;
+        height: 15px;
+        justify-content: center;
+    }
+
+    .a1 {
+        fill: aqua;
+    }
+
+    .compaund {}
+
+    .compaund-mc {
+        display: inline-block;
+    }
+
+    .btn-mc {}
+
+    .input-mc {}
+
+    .screen-mc {}
+
+    .compaund-price {}
+
+    .btn-price {}
+
+    .input-price {}
+
+    .screen-price {}
+
+    .scr-totalPrice {}
