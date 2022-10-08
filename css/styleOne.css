@@ -38,7 +38,7 @@ p {
         margin-right: 55px;
     }
     .modal-input {
-        width: 120px;
+        width: 240px;
         height: 28px;
         border: 2px solid #2c2a4a;
         border-radius: 13px;
@@ -78,6 +78,7 @@ p {
         text-align: center;
        
         color: #fff;
+        display: none;
     }
 
     .inp {
