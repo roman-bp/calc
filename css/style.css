@@ -99,12 +99,7 @@ p {
         margin-right: auto;
         border-radius: 15px;
     }
-    ol{
-        list-style-type: none;
-        list-style-image: url(../img/cart.svg);
-        fill: aqua;
-        
-    }
+   
     .totalPriceWrap{
         
         margin-left: auto;
@@ -134,4 +129,20 @@ p {
     margin-right: 100px;
     align-items: center;
     padding-top: 3px;
+    }
+    ol{
+        margin: 0;
+       
+        list-style-type: none;
+        /* list-style-image: url(../img/cart.svg);
+        fill: aqua;
+         */
+    }
+    ol li{
+        position: relative;
+    }
+    .lisyImages{
+        position: absolute;
+        top: 26px;
+        left: -35px;
     }
