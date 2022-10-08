@@ -1,0 +1,165 @@
+/* * {
+margin: 0;
+} */
+p {
+    margin: 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+
+    body{
+        background-color: #4f518c;
+    }
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #fff;
+     }
+    .navigation{
+        display: flex;
+        justify-content:space-around;
+        list-style: none;
+        padding: 0 10px;
+        margin-bottom : 10px;
+        font-size: 20px;
+       
+    }
+    .title{
+        font-size: 22PX;
+        color: #2c2a4a;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .input-wrap{
+        position: relative;
+        display: inline-block;
+        margin-right: 55px;
+    }
+    .modal-input {
+        width: 120px;
+        height: 28px;
+        border: 2px solid #2c2a4a;
+        border-radius: 13px;
+        background-color: transparent;
+        padding: 0px 8px 0px 31px;
+        font-size: 25px;
+        text-align: center;
+        color: #fff;
+    
+    }
+    .icon-name {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        fill: #dabfff;
+    }
+    .comp {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        justify-content: center;
+        padding: 3px;
+        border: 3px solid #9d94d7;
+        border-radius: 19px;
+        margin-bottom: 5px;
+    }
+
+    .scr {
+        display: inline-block;
+        min-width: 76px;
+        font-size: 21px;
+        padding: 3px;
+        border-radius: 10px;
+        background-color: #907ad6;
+        text-align: center;
+       
+        color: #fff;
+    }
+
+    .inp {
+        width: 100px;
+        font-size: 25px;
+
+
+
+    }
+
+    .img {
+        display: flex;
+        width: 15px;
+        height: 15px;
+        justify-content: center;
+    }
+
+    .a1 {
+        fill: aqua;
+    }
+    
+    .btnWrap{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btnCalc1{
+        display: block;
+        background-color: #2c2a4a;
+        width: 337px;
+        height: 41px;
+        align-items: center;
+        color: #907ad6;
+        font-size: 21px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+    }
+   
+    .totalPriceWrap{
+        
+        margin-left: auto;
+        margin-right: auto;
+    }  
+    .totalPrice{
+       text-align: center;
+        color: #2c2a4a;
+        font-size: 20px;
+    }
+    .scrTotalPrice1{
+       
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 60%;
+    }
+
+    .totalPriceWrap{
+        position: relative;
+    }
+    .iTp{
+        position: absolute;
+    top: 3px;
+    left: 79px;
+    display: inline-block;
+    margin-right: 100px;
+    align-items: center;
+    padding-top: 3px;
+    }
+    ol{
+        margin: 0;
+       
+        list-style-type: none;
+        /* list-style-image: url(../img/cart.svg);
+        fill: aqua;
+         */
+    }
+    ol li{
+        position: relative;
+    }
+    .lisyImages{
+        position: absolute;
+        top: 26px;
+        left: -35px;
+    }
