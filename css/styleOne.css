@@ -14,7 +14,13 @@ p {
         text-decoration: none;
         text-transform: uppercase;
         font-size: 12px;
-        color: #fff;
+        
+        color: #907ad6;
+     }
+     .current{
+        color: #fff;            
+     
+       border-bottom: 2px solid;
      }
     .navigation{
         display: flex;
