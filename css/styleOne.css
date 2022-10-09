@@ -20,7 +20,7 @@ p {
      .current{
         color: #fff;            
      
-       border-bottom: 2px solid;
+       border-bottom: 2px solid ;
      }
     .navigation{
         display: flex;
