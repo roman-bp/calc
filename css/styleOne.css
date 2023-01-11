@@ -50,11 +50,26 @@ p {
         border-radius: 13px;
         background-color: transparent;
         padding: 0px 8px 0px 31px;
-        font-size: 25px;
+        font-size: 10px;
         text-align: center;
-        color: #fff;
+        color: rgb(199, 15, 15);
     
     }
+
+    .modal-input-lastName,
+    .modal-input-date 
+    {
+        width: 128px;
+        height: 20px;
+        border: 2px solid #2c2a4a;
+        border-radius: 13px;
+        background-color: transparent;
+        padding: 0px 8px 0px 31px;
+        font-size: 16px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
     .icon-name {
         position: absolute;
         left: 12px;
