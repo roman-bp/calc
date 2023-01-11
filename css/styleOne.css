@@ -32,12 +32,11 @@ p {
        
     }
     .title{
-        font-size: 22PX;
+        font-size: 20PX;
         color: #fdc2de;
         text-align: center;
         text-transform: uppercase;
-        margin-bottom: 0;
-    }
+        margin-bottom: 5px;}
     .input-wrap{
         position: relative;
         display: inline-block;
@@ -59,7 +58,8 @@ p {
     .modal-input-lastName,
     .modal-input-date 
     {
-        width: 128px;
+        width: 125px;
+        margin-left: auto;
         height: 20px;
         border: 2px solid #2c2a4a;
         border-radius: 13px;
