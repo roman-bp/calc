@@ -56,7 +56,6 @@ btnCalc1.onclick = () => {
 
 
 
-
 // .compaund {
 // }
 //  {
