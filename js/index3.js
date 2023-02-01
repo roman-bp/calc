@@ -56,6 +56,19 @@ btnCalc1.onclick = () => {
     document.querySelector('.scrTotalPrice1').innerHTML = iPrice1 * iMc1 + iPrice2 * iMc2 + iPrice3 * iMc3+ iPrice4 * iMc4+iPrice5 * iMc5+iPrice6 * iMc6+iPrice7 * iMc7+iPrice8 * iMc8+iPrice9 * iMc9+iPrice10 * iMc10;
     // return iPrice1 * iMc1;
 
+
+    document.querySelector('.s1').innerHTML = iPrice1 * iMc1 ;
+    document.querySelector('.s2').innerHTML = iPrice2 * iMc2 ;
+    document.querySelector('.s3').innerHTML = iPrice3 * iMc3 ;
+    document.querySelector('.s4').innerHTML = iPrice4 * iMc4 ;
+    document.querySelector('.s5').innerHTML = iPrice5 * iMc5 ;
+    document.querySelector('.s6').innerHTML = iPrice6 * iMc6 ;
+    document.querySelector('.s7').innerHTML = iPrice7 * iMc7 ;
+    document.querySelector('.s8').innerHTML = iPrice8 * iMc8 ;
+    document.querySelector('.s9').innerHTML = iPrice9 * iMc9 ;
+    document.querySelector('.s10').innerHTML = iPrice10 * iMc10 ;
+
+
 }
 
 
