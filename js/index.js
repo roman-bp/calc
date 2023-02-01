@@ -21,10 +21,14 @@ btnCalc1.onclick = () => {
     const iPrice4 = document.querySelector('.inputPrice4').value;
     const iMc4 = document.querySelector('.inputMc4').value;
     const iPrice5 = document.querySelector('.inputPrice5').value;
-    const iMc5 = document.querySelector('.inputMc5').value;
+    const iMc5 = document.querySelector('.inputMc5').value; 
+    
+    const s1 = document.querySelector('.s1').value; 
 
-    document.querySelector('.screenMc1').innerHTML = iMc1;
-    document.querySelector('.screenPrice1').innerHTML = iPrice1;
+    document.querySelector('.s1').innerHTML = 1111;
+
+    // document.querySelector('.screenMc1').innerHTML = iMc1;
+    // document.querySelector('.screenPrice1').innerHTML = iPrice1;
     document.querySelector('.screenMc2').innerHTML = iMc2;
     document.querySelector('.screenPrice2').innerHTML = iPrice2;
     document.querySelector('.screenMc3').innerHTML = iMc3;
@@ -35,10 +39,15 @@ btnCalc1.onclick = () => {
     document.querySelector('.screenPrice5').innerHTML = iPrice5;
     document.querySelector('.scrTotalPrice1').innerHTML = iPrice1 * iMc1 + iPrice2 * iMc2 + iPrice3 * iMc3+ iPrice4 * iMc4+iPrice5 * iMc5;
     // return iPrice1 * iMc1;
+   
+    console.log(dddd);
+
+
 
 }
 
 
+const sss = document.querySelector('.s1').innerText;
 
 
 
