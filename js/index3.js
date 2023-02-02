@@ -33,6 +33,9 @@ btnCalc1.onclick = () => {
     const iPrice10 = document.querySelector('.screenPrice10').innerHTML;
     const iMc10 = document.querySelector('.inputMc10').value;
 
+    const summMk=document.querySelector('.summMk').value
+    
+
     document.querySelector('.screenMc1').innerHTML = iMc1;
     document.querySelector('.screenPrice1').innerHTML = iPrice1;
     document.querySelector('.screenMc2').innerHTML = iMc2;
@@ -56,7 +59,7 @@ btnCalc1.onclick = () => {
     document.querySelector('.scrTotalPrice1').innerHTML = iPrice1 * iMc1 + iPrice2 * iMc2 + iPrice3 * iMc3+ iPrice4 * iMc4+iPrice5 * iMc5+iPrice6 * iMc6+iPrice7 * iMc7+iPrice8 * iMc8+iPrice9 * iMc9+iPrice10 * iMc10;
     // return iPrice1 * iMc1;
 
-
+    const summ=document.querySelector('.scrTotalPrice1').innerHTML;
     document.querySelector('.s1').innerHTML = iPrice1 * iMc1 ;
     document.querySelector('.s2').innerHTML = iPrice2 * iMc2 ;
     document.querySelector('.s3').innerHTML = iPrice3 * iMc3 ;
@@ -67,6 +70,10 @@ btnCalc1.onclick = () => {
     document.querySelector('.s8').innerHTML = iPrice8 * iMc8 ;
     document.querySelector('.s9').innerHTML = iPrice9 * iMc9 ;
     document.querySelector('.s10').innerHTML = iPrice10 * iMc10 ;
+
+
+    document.querySelector('.rent').innerHTML = summ-summMk;
+
 
 
 }
