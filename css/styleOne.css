@@ -4,6 +4,9 @@ margin: 0;
 p {
     margin: 0;
 }
+ol{
+    padding: 0;
+}
 
 @media screen and (min-width: 200px) and (max-width: 700px) {
 
@@ -16,6 +19,11 @@ p {
         font-size: 10px;
         
         color: #907ad6;
+     }
+     .container{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
      }
      .current{
         color: #fff;            
@@ -36,14 +44,27 @@ p {
         color: #fdc2de;
         text-align: center;
         text-transform: uppercase;
-        margin-bottom: 5px;}
+        margin-bottom: 5px;
+        
+    }
+    .inputWrapDateName{
+       
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .input-wrap{
         position: relative;
         display: inline-block;
         margin-right: 25px;
     }
+
+    .olNumber{
+        margin-left: auto;
+        margin-right: auto;
+    }
     .modal-input {
-        width: 120px;
+        width: 150px;
         height: 20px;
         border: 5px solid #2c2a4a;
         border-radius: 13px;
@@ -60,7 +81,7 @@ p {
     {
         width: 125px;
         margin-left: auto;
-        height: 20px;
+        height: 30px;
         border: 2px solid #2c2a4a;
         border-radius: 13px;
         background-color: transparent;
@@ -69,7 +90,12 @@ p {
         text-align: center;
         color: rgb(255, 255, 255);
     }
+     .summMk {
+        width: 200px;
+        margin-top: 5px;
+        border-color: #ffe210;
 
+    }
     .icon-name {
         position: absolute;
         left: 12px;
@@ -82,7 +108,7 @@ p {
     }
     }
     .comp {
-        width: 53%;
+        width: 200px;
         display: flex;
         /* flex-direction: column; */
         text-align: start;
@@ -91,9 +117,10 @@ p {
         border: 3px solid #9d94d7;
         border-radius: 19px;
         margin:5px 0;
+        color: #ffe210;;
     }
     .summ{
-        min-width: 70px;
+        min-width: 90px;
         /* display: flex; */
         /* flex-direction: column; */
         text-align: center;
@@ -102,7 +129,8 @@ p {
         border: 3px solid #9d94d7;
         border-radius: 19px;
         margin:3px 0;
-
+        color: #fff;
+        font-size: 16px;
     }
     .scr {
         display: inline-block;
@@ -199,4 +227,15 @@ p {
         position: absolute;
         top: 26px;
         left: -35px;
+    }
+    .rent{
+        display: inline-block;
+        text-align: center;
+        border-radius: 10px ;
+        border: 2px solid red;
+        width: 70px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
     }
